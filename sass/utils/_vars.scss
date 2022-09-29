@@ -1,0 +1,25 @@
+:root {
+    /* Fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+    /* Text colors */
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+    --logo-txt-cl: #000000;
+    --supporting-txt-cl: #757575;
+    --light-txt-cl: #FFFFFF;
+
+    /* Background colors */
+    --main-bg-cl: #FFFFFF;
+    --supporting-bg-cl: #2F303A;
+    --accent-bg-cl: #2196F3;
+    --grey-bg-cl: #F5F4FA;
+
+    /* Others */
+    --items: 3;
+    --indent: 30px;
+    --icon-cl: #AFB1B8;
+
+    --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,30 @@
+.address-group {
+    display: block;
+    width: 231px;
+    margin-right: 70px;
+}
+
+.address-list-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-link {
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+    font-style: normal;
+}
+
+.address-contact-link {
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    transition: color var(--anim-fast);
+
+&:hover {
+    color: var(--accent-txt-cl);
+}
+
+&:focus {
+    color: var(--accent-txt-cl);
+}
+}

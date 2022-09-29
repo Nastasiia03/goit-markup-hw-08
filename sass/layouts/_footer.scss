@@ -1,0 +1,34 @@
+.footer {
+    background-color: var(--supporting-bg-cl);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo {
+    color: var(--light-txt-cl);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.socials {
+    margin-right: 93px;
+}
+
+.socials-subtitle {
+    color: var(--light-txt-cl);
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.footer-icon {
+    fill: var(--light-txt-cl);
+}
