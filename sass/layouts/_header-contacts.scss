@@ -1,6 +1,10 @@
 .contacts__list {
     display: flex;
     gap: 30px;
+
+    @media screen and (max-width: 767px) {
+     display: none;   
+    }
 }
 
 .contacts__item {
@@ -8,6 +12,11 @@
     align-items: center;
     width: 161px;
     height: 16px;
+
+    @media screen and (max-width: 767px) {
+     display: none;   
+    }
+
 }
 
 .contacts__link {
@@ -42,4 +51,9 @@
 .contacts__link:focus & {
     fill: var(--accent-txt-cl);
 }
+
+@media screen and (max-width: 767px) {
+display: none;   
+}
+
 }

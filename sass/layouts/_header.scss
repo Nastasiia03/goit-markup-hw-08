@@ -8,8 +8,20 @@
 }
 
 .header__logo {
+    margin-right: 276px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: var(--logo-txt-cl);
+
+    @media screen and (min-width: 768px) {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    }
+
+    @media screen and (min-width: 1200px) {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
-    color: var(--logo-txt-cl);
+}
 }
