@@ -3,6 +3,7 @@
     // mobile styles
     display: block;
 
+
     // tablet styles
     @media screen and (min-width: 768px) {
     display: flex;
@@ -15,8 +16,8 @@
     @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: auto;
+    margin-top: auto;
     gap: 30px;
     }
 }

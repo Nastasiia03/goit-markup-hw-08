@@ -364,8 +364,8 @@ p {
     display: flex;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    margin-left: 0;
-    margin-top: 0;
+    margin-left: auto;
+    margin-top: auto;
     gap: 30px;
   }
 }
@@ -674,12 +674,18 @@ p {
 }
 
 .footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .footer-logo {
@@ -689,7 +695,13 @@ p {
 }
 
 .socials {
-  margin-right: 93px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .socials {
+    margin-right: 93px;
+    margin-bottom: 0;
+  }
 }
 
 .socials-subtitle {
@@ -708,9 +720,16 @@ p {
 }
 
 .address-group {
-  display: block;
-  width: 231px;
-  margin-right: 70px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .address-group {
+    width: 231px;
+    margin-right: 70px;
+    text-align: left;
+    margin-bottom: 0;
+  }
 }
 
 .address-list-item:not(:last-child) {
@@ -881,10 +900,16 @@ p {
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
+  font-size: 24px;
+  line-height: 1.1666666667;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.1923076923;
+  }
 }
 
 .logo span {
@@ -1187,21 +1212,34 @@ p {
 }
 
 .subscription-form-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 12px;
+  display: block;
+}
+@media screen and (min-width: 1200px) {
+  .subscription-form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 12px;
+  }
 }
 
 .subscription-form-label {
+  margin-bottom: 20px;
   display: block;
   width: 358px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .subscription-form-label {
+    margin-bottom: 0;
+  }
 }
 
 .subscription-form-input {
@@ -1282,6 +1320,8 @@ p {
   gap: 10px;
   width: 200px;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-btn {

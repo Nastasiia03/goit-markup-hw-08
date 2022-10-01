@@ -1,7 +1,14 @@
 .address-group {
-    display: block;
-    width: 231px;
-    margin-right: 70px;
+  
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        width: 231px;
+        margin-right: 70px;
+        text-align: left;
+        margin-bottom: 0;
+    }  
 }
 
 .address-list-item:not(:last-child) {

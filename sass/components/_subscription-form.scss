@@ -6,15 +6,29 @@
 }
 
 .subscription-form-group {
+    display: block;
+ 
+
+    @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 12px;       
+    }
+
 }
 
 .subscription-form-label {
+    margin-bottom: 20px;
     display: block;
     width: 358px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 0;    
+    }
+
 }
 
 .subscription-form-input {
@@ -47,4 +61,6 @@
     gap: 10px;
     width: 200px;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
