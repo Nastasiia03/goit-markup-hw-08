@@ -27,7 +27,6 @@
 .clients__item {
 
     // mobile styles
-    --items: 2;
     flex-basis: calc(100% / var(--items) - var(--indent));
     margin-left: var(--indent);
     margin-top: var(--indent);
