@@ -1234,6 +1234,12 @@ p {
       -ms-user-select: none;
           user-select: none;
 }
+@media screen and (max-width: 1199px) {
+  .register-form-desc {
+    font-size: 12px;
+    line-height: 1.1666666667;
+  }
+}
 
 .register-form-link {
   color: var(--accent-txt-cl);
