@@ -352,8 +352,10 @@ p {
   }
 }
 
-.hero-container {
-  width: 360px;
+@media screen and (min-width: 768px) {
+  .hero-container {
+    width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero-container {
@@ -1335,9 +1337,13 @@ p {
 .subscription-form-label {
   margin-bottom: 20px;
   display: block;
-  width: 450px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .subscription-form-label {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .subscription-form-label {
