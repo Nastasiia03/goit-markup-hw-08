@@ -31,6 +31,10 @@
     @media screen and (min-width: 1200px) {
     width: 528px;
     }
+
+    @media screen and (max-width: 439px) {
+     width: 300px;   
+    }
 }
 
 .modal-btn {

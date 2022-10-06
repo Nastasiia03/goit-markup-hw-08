@@ -327,8 +327,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--supporting-bg-cl);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/img_sm-@1x.png");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/img_sm-@1x.png");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img_sm-@1x.png");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img_sm-@1x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -338,32 +338,32 @@ p {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/img_sm-@2x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/img_sm-@2x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img_sm-@2x.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img_sm-@2x.png");
   }
 }
 @media screen and (min-width: 481px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/img_md-@1x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/img_md-@1x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img_md-@1x.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img_md-@1x.png");
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/img_md-@2x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/img_md-@2x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img_md-@2x.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img_md-@2x.png");
   }
 }
 @media screen and (min-width: 769px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/img_lg-@1x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/img_lg-@1x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img_lg-@1x.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img_lg-@1x.png");
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/img_lg-@2x.png");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/img_lg-@2x.png");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero/img_lg-@2x.png");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img_lg-@2x.png");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -879,6 +879,7 @@ p {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+    max-width: 326px;
   }
 }
 
@@ -999,6 +1000,11 @@ p {
   line-height: 1.5555555556;
   letter-spacing: 0.03em;
 }
+@media screen and (max-width: 424px) {
+  .overlay-desc {
+    font-size: 15px;
+  }
+}
 
 .logo {
   font-family: var(--secondary-font);
@@ -1037,6 +1043,11 @@ p {
     padding: 8px 30px;
   }
 }
+@media screen and (max-width: 439px) {
+  .btn {
+    font-size: 14px;
+  }
+}
 
 .backdrop {
   position: fixed;
@@ -1072,6 +1083,11 @@ p {
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
+  }
+}
+@media screen and (max-width: 439px) {
+  .modal {
+    width: 300px;
   }
 }
 
@@ -1120,6 +1136,11 @@ p {
     line-height: 1.15;
   }
 }
+@media screen and (max-width: 439px) {
+  .register-form-title {
+    font-size: 15px;
+  }
+}
 
 .register-form-group {
   margin-bottom: 20px;
@@ -1141,6 +1162,12 @@ p {
   display: block;
   text-align: left;
   margin-bottom: 4px;
+}
+@media screen and (max-width: 439px) {
+  .register-form-label,
+.register-form-heading {
+    font-size: 10px;
+  }
 }
 
 .register-form-input {
@@ -1175,7 +1202,6 @@ p {
 
 .register-form-comment {
   display: block;
-  height: 138px;
   margin-bottom: 20px;
 }
 
@@ -1219,6 +1245,27 @@ p {
   line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+@media screen and (max-width: 439px) {
+  .register-form-message {
+    height: 100px;
+    font-size: 10px;
+  }
+  .register-form-message::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .register-form-message::-moz-placeholder {
+    font-size: 10px;
+  }
+  .register-form-message:-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .register-form-message::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .register-form-message::placeholder {
+    font-size: 10px;
+  }
 }
 
 .register-form-agreement {
@@ -1265,6 +1312,11 @@ p {
   .register-form-desc {
     font-size: 12px;
     line-height: 1.1666666667;
+  }
+}
+@media screen and (max-width: 439px) {
+  .register-form-desc {
+    font-size: 10px;
   }
 }
 
@@ -1535,6 +1587,11 @@ p {
   color: var(--accent-txt-cl);
   margin-bottom: 32px;
 }
+@media screen and (max-width: 424px) {
+  .mobile-tel {
+    font-size: 27px;
+  }
+}
 
 .mobile-mail {
   font-weight: 500;
@@ -1577,10 +1634,13 @@ p {
   gap: 10px;
 }
 
-.mobile-socials-item:not(:last-child) {
+.mobile-socials-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.mobile-socials-item:not(:last-child) {
   gap: 10px;
 }
 .mobile-socials-item:not(:last-child)::after {
@@ -1596,6 +1656,11 @@ p {
   line-height: 1.2222222222;
   letter-spacing: 0.02em;
   color: var(--accent-txt-cl);
+}
+@media screen and (max-width: 424px) {
+  .mobile-socials-link {
+    font-size: 12px;
+  }
 }
 
 .current-link {

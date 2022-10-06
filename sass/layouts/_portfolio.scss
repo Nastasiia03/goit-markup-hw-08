@@ -41,7 +41,8 @@
 
 @media screen and (max-width: 767px) {
   flex-wrap: wrap;
-  justify-content: left;  
+  justify-content: left; 
+  max-width: 326px; 
 }
 }
 
@@ -140,4 +141,8 @@
     font-size: 18px;
     line-height: calc(28 / 18);
     letter-spacing: 0.03em;
+
+    @media screen and (max-width: 424px) {
+      font-size: 15px;  
+    }
 }
